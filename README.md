@@ -7,7 +7,11 @@ using k-means (5 clusters).
 
 ## Quick Start
 
-1. Install [pixi](https://pixi.prefix.dev/latest/), which is the only prerequisite.
+1. Programme installations:
+      - [pixi](https://pixi.prefix.dev/latest/)
+      - A modern LaTeX distribution (e.g. [TeXLive](https://tug.org/texlive/),
+  [MacTex](https://tug.org/mactex/), or [MikTex](https://miktex.org/))
+        
 1. Clone the repository and navigate to the final project folder.
 1. Install and activate the project environment:
    ```bash
