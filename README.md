@@ -1,9 +1,9 @@
 # Cluster Analysis on Labour Market Microdata
 
 This project builds a reproducible pipeline implementing an unsupervised learning method
-\- cluster analysis - using CPS labour market microdata to identify worker segments. The
-pipeline supports k-means and agglomerative clustering, with final results produced
-using k-means (5 clusters).
+\- cluster analysis - using CPS labour market microdata to identify meaningful clusters or segmentation in the labour market. The workflow includes raw data cleaning, preprocessing data to make it ready for clustering, selecting optimal number of clusters, evaluation of clustering models, and generating cluster profiles and plots.
+
+The pipeline is designed to support k-means and agglomerative clustering, with final results produced using k-means (5 clusters). Hence, the code can incorporate agglomerative clustering by simply adding it to the model dictionary, without having to restructure the entire codebase.
 
 ## Quick Start
 
@@ -64,3 +64,8 @@ using k-means (5 clusters).
   - `tables/` – Generated tables.
   - `plots/` – Generated figures.
   - `final/` – Final clustered dataset.
+
+## Credits
+
+This project was created using [econ-project-templates](https://github.com/OpenSourceEconomics/econ-project-templates).
+
